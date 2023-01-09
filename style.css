@@ -1,0 +1,48 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1{
+    text-align: center;
+}
+nav{
+   text-align: center;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    background-color: rgb(22, 133, 77);
+    margin: 50px; 
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border: 2px solid rgb(22, 133, 77);
+    transition: all 0.6s ease;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color:rgb(22, 133, 77);
+}
+section{
+    text-align: center;
+}
+section div.pelicula{
+    display: inline-block;
+    margin: 25px;
+} 
+section div.pelicula button{
+    background-color: rgb(22, 133, 77);
+    color: white;
+    border:none;
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+section div.pelicula button:hover{
+    letter-spacing: 1px;
+}
